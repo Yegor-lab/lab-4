@@ -1,0 +1,141 @@
+@mainColor: #e6832c;
+
+//**************************header**************************
+
+.header {
+    div {
+            padding-right: 0px;
+    }
+    button{
+        background-color: @mainColor;
+        color: white;
+        border-color: @mainColor;
+    }
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.747);
+    height: 80px;
+    color:rgba(255, 255, 255, 0.897);
+}
+
+.badge-top {
+    background-color: @mainColor;
+    padding-left: 1%;
+    text-align: center;
+}
+
+.psevdo_header {
+    height: 80px;
+}
+
+.semi-transparent-text {
+   color:  rgba(255, 255, 255, 0.336);
+}
+
+//**************************navigation**************************
+
+.navigation {
+    .active {
+        background: @mainColor;
+        color: white;
+    }
+}
+
+//**************************main (cards)**************************
+.left-block {
+    padding: 0px 0px;
+}
+
+.pizza-card {
+    
+    margin-bottom: 10%;
+    padding: 5%;
+    img {
+        width: 100%;
+    }
+
+    h3 {
+        color: @mainColor;
+    }
+    a {
+        background-color: @mainColor;
+        color: white;
+    }
+}
+
+//**************************buy-list block**************************
+
+.right_block {
+    padding: 0px;
+    right: 0px;
+    position: fixed;
+    height: 100%;
+    z-index: 2;
+    box-shadow: -3px 0px 7px  rgba(0, 0, 0, 0.425);
+}
+
+.buy-header, .buy-footer {
+    position: relative;
+    height: 15%;
+    padding: 5%;
+    margin: 0px;
+} 
+
+.buy-footer {
+    bottom:0px;
+}
+
+.pizza-buy-list {
+    position: relative;
+    height: 25%;
+    h4 {
+        color: @mainColor;
+    }
+    .dia-mass {
+        height: auto;
+        padding:0px;
+        margin:0px;
+        button {
+            width: 30px;
+            height: 30px;
+            padding:0px;
+        }
+        .number {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+
+    .btn-paddind {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .number {
+        position: relative;
+        width: 20%;
+    }
+}
+
+
+
+//**************************down elements**************************
+.badge {
+    bottom:-5%;
+
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+//**************************supporting structures **************************
+.gap {
+    height: 20px;
+}
+
+.hr {
+    border-color: rgba(255, 255, 255, 0.336);
+    position: relative;
+    margin: 0px;
+}
+
